@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+*.egg-info/
+.venv/
+venv/
+.env
+.idea/
+.vscode/
+
+# Edge survey local runs / tooling
+.edge_survey_sync_state.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local build stray (never commit)
+build/
+dist/
+wheels/
+*.whl

@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "agri-guard-core"
+version = "0.1.0"
+description = "Core engine for AgriGuard AI pest detection system"
+authors = ["AgriGuard Team"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pillow = ">=10.0,<14"
+numpy = "^1.24.0"
+ultralytics = "^8.0.0"
+scikit-learn = "^1.3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
