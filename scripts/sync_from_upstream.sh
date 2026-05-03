@@ -21,9 +21,13 @@ done
 
 mkdir -p "$STAND/agri_guard_core" "$STAND/agri_guard_edge_survey"
 
-rsync -a --delete --exclude ".git/" --exclude ".venv/" --exclude "*.egg-info/" \
+rsync -a --delete \
+  --exclude ".git/" --exclude ".venv/" --exclude "*.egg-info/" \
+  --exclude "__pycache__/" --exclude "build/" --exclude "dist/" \
   "$MONO/agri_guard_core/" "$STAND/agri_guard_core/"
-rsync -a --delete --exclude ".git/" --exclude ".venv/" --exclude "*.egg-info/" --exclude ".env" \
+rsync -a --delete \
+  --exclude ".git/" --exclude ".venv/" --exclude "*.egg-info/" --exclude ".env" \
+  --exclude "__pycache__/" --exclude "build/" --exclude "dist/" \
   "$MONO/agri_guard_edge_survey/" "$STAND/agri_guard_edge_survey/"
 
 echo "---"
