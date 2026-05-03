@@ -57,9 +57,15 @@ survey sync -o ~/AgriGuard/run1 --api-url ... --token "<JWT>"
 
 ---
 
+## 版权声明与技术联系
+
+- **单位**: J-INAN S&T COMPANY
+- **作者**: Ryan.L
+- **邮箱**: iuan.liu@gmail.com
+
 ## 许可证（MIT）
 
-本仓库中与 Edge Survey CLI 一并分发的 **`agri_guard_core` / `agri_guard_edge_survey` 源代码**以 **[MIT License](LICENSE)** 提供。二进制或源码再分发时请保留版权声明与 **`LICENSE`** 全文。运行时依赖（PyTorch、Ultralytics、`scikit-learn` 等）遵循其自有许可证。
+本仓库中与 Edge Survey CLI 一并分发的 **`agri_guard_core` / `agri_guard_edge_survey` 源代码**以 **[MIT License](LICENSE)** 提供（详见 `LICENSE` 首段copyright）。二进制或源码再分发时请保留版权声明与 **`LICENSE`** 全文。运行时依赖（PyTorch、Ultralytics、`scikit-learn` 等）遵循其自有许可证。
 
 ---
 
